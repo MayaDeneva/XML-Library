@@ -1,0 +1,100 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Каталог</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <style>
+                    body {
+                    margin: 0; /* Remove default body margin */
+                    padding: 0; /* Remove default body padding */
+                    }
+                    .img-container {
+                    position: relative;
+                    height: 20em;
+                    background-image: url('images/library-1.jpg');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    opacity: 0.9;
+                    display:flex;
+                    padding-left: 10em;
+                    align-content: center;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+
+                    }
+
+                    .title {
+                    display:flex;
+                    align-items: center;
+
+                    width: auto;
+                    height: 50%;
+                    background-color: black;
+                    font-size: 2em;
+                    color: antiquewhite;
+
+                    padding: 2em 4em 2em 4em;
+                    opacity: 0.95;
+                    }
+
+                    .catalog-header {
+                    text-align: center;
+                    font-size: 2em;
+                    background-color: black;
+                    padding: 0.5em;
+                    color: antiquewhite;
+                    opacity: 0.9;
+                    margin-top: 0;
+                    }
+                    .table-container {
+                    width:70%;
+                    margin: 0 auto;
+                    text-align: center;
+                    }
+                    .table-hover td:hover {
+                    cursor: pointer;
+                    }
+                </style>
+    </head>
+    <body>
+        <div class="img-container">
+            <div class="title">
+                <h1>Столична Библиотека</h1>
+            </div>
+        </div>
+        <h2 class="catalog-header">Книги</h2>
+        <div class="table-container">
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">Заглавие</th><th scope="col">Автор</th><th scope="col">Жанр</th><th scope="col">Година на издаване</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Цар Плъх</td><td>Джеймс Клавел</td><td>Класически роман</td><td>1992</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Братя Карамазови</td><td>Фьодор Достоевски</td><td>Философски роман</td><td>2003</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Нарцис и Голдмунд</td><td>Херман Хесе</td><td>Философски роман</td><td>1950</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Аз още броя дните</td><td>
+                Георги Бърдаров
+            </td><td>Роман</td><td>2016</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Пипи Дългото чорапче</td><td>
+                Астрид Линдгрен
+            </td><td>Детски роман</td><td>1980</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

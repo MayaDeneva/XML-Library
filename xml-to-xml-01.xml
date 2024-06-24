@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><library>
+    <libraryName>Столична Библиотека</libraryName>
+    <address>
+        <main>Главен адрес</main>
+        <city>София</city>
+        <street> пл. „Петко Р. Славейков“ 4</street>
+        <district>София Център</district>
+        <postalCode>1000</postalCode>
+    </address>
+    <address>
+        <affiliate>филиал Студентски</affiliate>
+        <city>София</city>
+        <street> ул. „проф. Боян Пенев“</street>
+        <district>Студентски град</district>
+        <postalCode>1700</postalCode>
+    </address>
+    <address>
+        <affiliate>филиал Сердика</affiliate>
+        <city>София</city>
+        <street> ул. „Сердика“ 1</street>
+        <district>София Център</district>
+        <postalCode>1000</postalCode>
+    </address>
+</library>

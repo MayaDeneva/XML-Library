@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><library>
+    <libraryName>Столична Библиотека</libraryName>
+    <book>
+        <title>Цар Плъх</title>
+        <author>
+            <name>Джеймс Клавел</name>
+        </author>
+        <genre>Класически роман</genre>
+        <yearPublished>1992</yearPublished>
+    </book>
+    <periodical>
+        <title>Българска илюстрация</title>
+        <author>
+            <name>Янко С. Ковачев</name>
+        </author>
+        <genre>История</genre>
+        <issueNumber>1-12</issueNumber>
+        <frequency>Месечно</frequency>
+    </periodical>
+</library>
